@@ -123,12 +123,12 @@ module.exports = function(grunt) {
 						"sortable.js",
 					],
 					out: "test/js/jquery.ui.nogit.js",
-					done: function(done, output) {
+					done: (done, output) => {
 						grunt.log.writeln(output.magenta);
 						grunt.log.writeln("jQueryUI Custom Build ".cyan + "done!\n");
 						done();
 					},
-					error: function(done, err) {
+					error: (done, err) => {
 						grunt.log.warn(err);
 						done();
 					}
