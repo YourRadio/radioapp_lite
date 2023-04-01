@@ -33,6 +33,7 @@
 		getMetaInterval = 0,
 		notifyInterval = 0,
 		previosStream = '';
+		
 	const 	addListItem = async function(data){
 				try{
 					if(data.name && data.stream){
