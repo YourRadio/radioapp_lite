@@ -1,0 +1,51 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"name": "WebKit App Radio",
+			"file_exclude_patterns": [
+				"*.sublime-workspace",
+				"*-lock.json",
+				"radioapp.template",
+				//"application/favicon.*",
+				//"application/*.html"
+			],
+			"folder_exclude_patterns": [
+				"bower_components",
+				"node_modules",
+				"src/images",
+				"src/font",
+				"build",
+				"ffmpeg",
+				"setup",
+				".cache",
+				"test",
+				//"application/_locales",
+				//"application/css",
+				//"application/fonts",
+				//"application/images",
+				//"application/js",
+				//"application/modules",
+				//"application/radio"
+			]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build Project",
+			"working_dir": "$project_path",
+			"shell_cmd": "grunt -v default && echo Finish Build Project",
+			"file_patterns": [
+				"*.less",
+				"*.js",
+				"*.pug",
+				"*.json",
+				"*.svg",
+				"*.template",
+				"*.sublime-project"
+			]
+		}
+	]
+}

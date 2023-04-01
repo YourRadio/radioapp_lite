@@ -1,0 +1,135 @@
+.modal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100%;
+	* {
+		user-select: none;
+	}
+	h2 {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.croppie-container .cr-slider-wrap {
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	&-crop {
+		position: relative;
+		margin-bottom: 15px;
+		width: 310px
+	}
+	&-fileicon {
+		position: absolute;
+		top: 0;
+		left: calc(100% - 48.38px);
+		cursor: pointer;
+		font-size: 3.3em;
+		line-height: 0;
+		z-index: 2000;
+		//text-shadow: 0 0 0px rgba(0, 152, 255, .88);
+		//transition: text-shadow .3s ease;
+		&:hover {
+			//text-shadow: 0 0 5px rgba(0, 152, 255, .88);
+		}
+	}
+	.close {
+		margin: 10px;
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	&-dialog {
+		flex: 1 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-self: center;
+		min-width: 400px;
+	}
+	&-wrapper {
+		padding: 15px 15px 20px 15px;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		min-width: 100%;
+		background-color: #fff;
+		box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+		position: relative;
+		.cropie_big.croppie-container {
+			position: fixed;
+			top: 0;
+			left: -500px;
+			width: 400px;
+			.cr-slider-wrap {
+				display: none !important;
+			}
+		}
+	}
+	&-inputs {
+		flex: 1;
+		min-width: 400px;
+		margin-bottom: 10px;
+	}
+	&-label {
+		display: block;
+		margin-bottom: 0;
+		position: relative;
+		padding-top: 20px;
+		span {
+			user-select: none;
+			pointer-events: none;
+			position: absolute;
+			font-size: 12px;
+			top: 0px;
+			left: 15px;
+			transition: top .3s ease;
+			color: #0098ff;
+			font-weight: bolder;
+		}
+		input {
+			user-select: auto;
+			display: block;
+			width: 100%;
+			font-family: Bender,sans-serif;
+			font-size: 12px;
+			padding-top: 0px;
+			padding-bottom: 5px;
+			appearance: none;
+			outline: none !important;
+			border: 0;
+			border-bottom: 1px solid #0098ff;
+			margin-bottom: 5px;
+			&::placeholder {
+				color: transparent;
+			}
+			&:placeholder-shown ~ span {
+				top: 19px;
+			}
+			&:focus ~ span {
+				top: 0px;
+			}
+		}
+	}
+	&-buttons {
+		max-width: 250px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		button.control {
+			margin-right: 15px;
+			padding-top: 0.7em;
+			padding-bottom: 0.7em;
+			flex: 1;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

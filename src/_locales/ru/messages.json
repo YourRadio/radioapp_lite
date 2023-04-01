@@ -1,0 +1,92 @@
+{
+	"appName": {
+		"message": "Ваше радио"
+	},
+	"appError": {
+		"message": "ОШИБКА!\nПожалуйста, переустановите программу!"
+	},
+	"appRepeat": {
+		"message": "Попробуйте ещё раз"
+	},
+	"notStations": {
+		"message": "Нет радиостанций"
+	},
+	"close": {
+		"message": "Закрыть"
+	},
+	"minimize": {
+		"message": "Свернуть"
+	},
+	"restore": {
+		"message": "Востановить"
+	},
+	"default": {
+		"message": "Развернуть"
+	},
+	"goToDev": {
+		"message": "Перейти на сайт "
+	},
+	"notToDev": {
+		"message": "Ну и ладно..."
+	},
+	"copyTitle": {
+		"message": "Копировать радиопоток станции"
+	},
+	"copyOk": {
+		"message": "Ссылка на поток радиостанции %name% скопирована"
+	},
+	"insertTitle": {
+		"message": "Добавить радиостанцию"
+	},
+	"editTitle": {
+		"message": "Редактировать радиостанцию"
+	},
+	"deleteTitle": {
+		"message": "Удалить радиостанцию"
+	},
+	"deleteStation": {
+		"message": "Удалить радиостанцию %name%?"
+	},
+	"exportTitle": {
+		"message": "Экспортировать радиостанции"
+	},
+	"exportMessage": {
+		"message": "Вы желаете сохранить список радиостанций?"
+	},
+	"importTitle": {
+		"message": "Импортировать радиостанции"
+	},
+	"importMessage": {
+		"message": "Вы желаете загрузить новый список радиостанций?"
+	},
+	"insertName": {
+		"message": "Название радиостанции"
+	},
+	"inserStream": {
+		"message": "Поток радиостанции"
+	},
+	"insert": {
+		"message": "Добавить"
+	},
+	"cancel": {
+		"message": "Отмена"
+	},
+	"ok": {
+		"message": "Ок"
+	},
+	"addIcon": {
+		"message": "Добавить Иконку радиостанции"
+	},
+	"settingsTitle": {
+		"message": "Настройки"
+	},
+	"settingsEmpty": {
+		"message": "Очистить список радиостанций"
+	},
+	"settingsDefault": {
+		"message": "Загрузить плейлист по умолчанию.\nУдалит ранее созданный плейлист."
+	},
+	"settingsNotify": {
+		"message": "Отображение сообщения о воспроизведении"
+	}
+}

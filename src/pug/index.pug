@@ -1,0 +1,63 @@
+doctype html
+html
+	head
+		meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet" type="text/css" href="css/main.css")
+		base(href="/")
+	body(ondragstart="return false;" ondrop="return false;")
+		#TitleBar
+			#TitleBar-icon
+				img(src="favicon.ico" alt="")
+			#TitleBar-text
+				span
+			#TitleBar-buttons
+				span#settings
+					include ../svg/settings-0001.svg
+				span#fullscreen
+					include ../svg/fullscreen.svg
+				span#minimized
+					include ../svg/minimized.svg
+				span#restored
+					include ../svg/maximized.svg
+				span#close
+					include ../svg/close.svg
+		main.loading
+			.container
+				.row
+					ul#radio-list(data-title="Your Radio")
+						//include inc/radioitem.pug
+				.volume-block
+					input#volume(min="0" max="100" value="1" step="1" type="range")
+		footer.clearfix
+			.footer_wrap
+				p.ring
+					a.github.icon-github(href="https://github.com/ProjectSoft-STUDIONIONS/radioApp-lite" target="_blank", title="https://github.com/ProjectSoft-STUDIONIONS/radioApp-lite" tabindex="-1")
+				p.text-center
+					|Developed by  
+					a(href="https://mynickname.com/projectsoft" target="_blank" title="https://mynickname.com/projectsoft" tabindex="-1") ProjectSoft
+					br
+					|&copy; 2008 - all
+				p.left.write.test
+					|0%
+		dialog.appBlock
+		dialog.settings-block
+			h3.settingsTitle.text-center
+				|
+			.block-options
+				.labels
+					label
+						input#clear_stations.group1(type="checkbox")
+						span.settingsEmpty
+					label
+						input#loadDefault.group1(type="checkbox")
+						span.settingsDefault
+					label
+						input#notify.group2(type="checkbox")
+						span.settingsNotify
+				.buttons-options
+					button#okSettings(type="button")
+					button#noSettings(type="button")
+		#cropTmp
+		script(type="text/javascript" src="js/plugins.js")
+		script(type="text/javascript" src="js/main.js")

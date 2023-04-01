@@ -1,0 +1,92 @@
+{
+	"appName": {
+		"message": "Your Radio"
+	},
+	"appError": {
+		"message": "ERROR!\nPlease reinstall the program!"
+	},
+	"appRepeat": {
+		"message": "Try again"
+	},
+	"notStations": {
+		"message": "No radio stations"
+	},
+	"close": {
+		"message": "Close"
+	},
+	"minimize": {
+		"message": "Minimise"
+	},
+	"restore": {
+		"message": "Restore"
+	},
+	"default": {
+		"message": "Expand"
+	},
+	"goToDev": {
+		"message": "Go to site "
+	},
+	"notToDev": {
+		"message": "Well, okay..."
+	},
+	"copyTitle": {
+		"message": "Copy station radio stream"
+	},
+	"copyOk": {
+		"message": "Stream link of radio station %name% copied"
+	},
+	"insertTitle": {
+		"message": "Add radio station"
+	},
+	"editTitle": {
+		"message": "Edit radio station"
+	},
+	"deleteStation": {
+		"message": "Delete radio station"
+	},
+	"deleteText": {
+		"message": "Delete radio station %name%?"
+	},
+	"exportTitle": {
+		"message": "Export radio stations"
+	},
+	"exportMessage": {
+		"message": "Would you like to save the list of radio stations?"
+	},
+	"importTitle": {
+		"message": "Import radio stations"
+	},
+	"importMessage": {
+		"message": "Would you like to upload a new list of radio stations?"
+	},
+	"insertName": {
+		"message": "Radio station name"
+	},
+	"inserStream": {
+		"message": "Radio station stream"
+	}, 
+	"insert": {
+		"message": "Add"
+	},
+	"cancel": {
+		"message": "Cancel"
+	},
+	"ok": {
+		"message": "Ok"
+	},
+	"addIcon": {
+		"message": "Add radio station icon"
+	},
+	"settingsTitle": {
+		"message": "Settings"
+	},
+	"settingsEmpty": {
+		"message": "Clear the list of radio stations"
+	},
+	"settingsDefault": {
+		"message": "Load default playlist.\nWill delete the previously created playlist. "
+	},
+	"settingsNotify": {
+		"message": "Display a message about playback"
+	}
+}
